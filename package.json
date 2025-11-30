@@ -1,0 +1,23 @@
+{
+  "name": "k8s-node-orders-microservice",
+  "version": "1.0.0",
+  "description": "A simple Order Service built with Node.js (Express) exposing a few REST endpoints. The real focus is using Kubernetes features: multi-replica deployments, services, horizontal pod autoscaling, config maps for service settings, secrets for DB credentials, liveness/readiness probes, rolling updates, and load balancing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MustaphaBousilDev/k8s-node-orders-microservice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MustaphaBousilDev/k8s-node-orders-microservice/issues"
+  },
+  "homepage": "https://github.com/MustaphaBousilDev/k8s-node-orders-microservice#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
