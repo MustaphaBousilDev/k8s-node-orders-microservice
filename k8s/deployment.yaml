@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: orders-service
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: orders-service
+  template:
+    metadata:
+      labels:
+        app: orders-service
+    spec:
+      containers:
+        - name: orders-service
+          image: orders-service:1.0.0
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 3000
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 3000
+            initialDelaySeconds: 3
+            periodSeconds: 5
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 3000
+            initialDelaySeconds: 5
+            periodSeconds: 10
