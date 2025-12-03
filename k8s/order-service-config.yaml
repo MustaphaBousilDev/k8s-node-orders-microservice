@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: order-service-config
+data:
+  ORDERS_DB_URL: jdbc:mysql://orders-db:3306/orders
+  ORDERS_DB_USERNAME: orders-user
+  ORDERS_DB_CONNECTION_POOL_SIZE: "10"

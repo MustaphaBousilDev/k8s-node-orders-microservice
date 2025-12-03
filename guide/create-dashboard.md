@@ -46,7 +46,7 @@ clusterrolebinding.rbac.authorization.k8s.io/admin-user created
 #05--mustapha@mustapha-MS-7D48:~/Desktop/workspace/k8s/k8s-node-orders-microservice/k8s$ kubectl -n kubernetes-dashboard create token admin-user
 -> result: 
 eyJhbGciOiJSUzI1NiIsImtpZCI6InBPYzRPemJZZEFSdUU1UWh6S19EckZWNWlVangwdVg4eWhxSzVwcHc4UmcifQ.eyJhdWQiOlsiaHR0cHM6Ly9rdWJlcm5ldGVzLmRlZmF1bHQuc3ZjLmNsdXN0ZXIubG9jYWwiXSwiZXhwIjoxNzY0NjM5ODU4LCJpYXQiOjE3NjQ2MzYyNTgsImlzcyI6Imh0dHBzOi8va3ViZXJuZXRlcy5kZWZhdWx0LnN2Yy5jbHVzdGVyLmxvY2FsIiwianRpIjoiYjExZDhlZTYtODI5NS00MGUxLWI3OWYtNTk2OTMwZmZiZmVmIiwia3ViZXJuZXRlcy5pbyI6eyJuYW1lc3BhY2UiOiJrdWJlcm5ldGVzLWRhc2hib2FyZCIsInNlcnZpY2VhY2NvdW50Ijp7Im5hbWUiOiJhZG1pbi11c2VyIiwidWlkIjoiNmIyZGZhZmItMjNkNS00OTFlLWExOGUtM2M0ZDdjZjNlOTMxIn19LCJuYmYiOjE3NjQ2MzYyNTgsInN1YiI6InN5c3RlbTpzZXJ2aWNlYWNjb3VudDprdWJlcm5ldGVzLWRhc2hib2FyZDphZG1pbi11c2VyIn0.lCa_or7SFYjBAm_vs7iFxTtQGPGJBWQ5vLIeiwZz3DbWMALdavRPtXRUtADSa0pAHImVNFUddUqm4H7uwsPsV1KpFYE6GxQ_5x75JB6qah6kclDTJsbZ_LbkjeRjDC92tu4B3vPr285mX28XAiDSyGX5oRCi-eIFTyu-dXvpiZP9ItoCcNQaYmzDutZUkUA8EEEtWCxdU-GtCtkEMVW2nt6y1DGFQVOGFtewBYIuwUzCbITIzlysc2zJc_cmRoWfnM8KFxZf_B-wDIjHcsqTA81RGwmYN2bsmaStXGU615nqvQBqe5dhgmYDFwtsGjxjMzIEVdaQBSDWo_B8VP8A7Q
---------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------re
 --------------------------------------------------------------------------------------------
 #06--mustapha@mustapha-MS-7D48:~/Desktop/workspace/k8s/k8s-node-orders-microservice/k8s$ kubectl proxy
 -> result:
